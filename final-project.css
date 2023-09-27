@@ -1,0 +1,271 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: monospace;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* HERO */
+
+.heroimg {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.heroimg video {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 85px;
+  opacity: 0.8;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  z-index: 2;
+  color: #ddd;
+}
+
+/* Iframe */
+iframe {
+  border-radius: 12px;
+}
+
+/* HEADER */
+header {
+  /* border: 1px solid red; */
+  background-color: rgba(255, 255, 255, 0.3);
+  margin: 0;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+.logoimg {
+  width: 30px;
+  height: 30px;
+}
+
+.sitenav {
+  font-size: 18px;
+  margin: auto 10px;
+  
+}
+
+.sitenav a {
+  padding: 10px 15px;;
+  border-bottom: 2px solid transparent;
+  transition: border-color, 0.25s;
+}
+
+.sitenav a:hover {
+  border-bottom: 2px solid #333;
+}
+
+
+
+/* ABOUT */
+
+.about {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 0 30px 0;
+  padding: 80px 0;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+.aboutimg {
+  width: 380px;
+  height: 240px;
+}
+
+.about p {
+  font-size: 22px;
+  margin: 10px 10px;
+  max-width: 450px;
+}
+
+/* Collection */
+
+.collection {
+  background-color: #ddd;
+  margin: 0;
+  padding-top: 90px;
+}
+
+.main-containar {
+  border: 1px solid #ddd;
+  background-color: #ddd;
+}
+
+/* Content */
+
+.content-items {
+  /* border: 1px solid red; */
+  margin: 90px 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 190px;
+  height: 190px;
+  border-radius: 12px;
+}
+
+h3 {
+  /* border: 1px solid red; */
+  margin: 0;
+  font-size: 20px;
+  padding: 7px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  opacity: 1;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.content-detail {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+}
+
+table {
+  padding: 2px 10px 0 10px;
+}
+
+th,
+td {
+  text-align: left;
+  font-size: 14px;
+}
+
+th {
+  width: 70px;
+}
+
+/* Tracklist */
+
+.tracklist {
+  width: 250px;
+}
+
+.tracklist th {
+  width: 25px;
+}
+
+.playTrack {
+    font-weight: bold;
+    color: #010044;
+}
+
+/* STORE */
+.storetitle {
+  background-color: #bbb;
+  margin: 0;
+  padding: 90px 0 50px 0;
+}
+.stores {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #bbb;
+}
+
+.record-store {
+  /* border: 1px solid red; */
+  text-align: center;
+  background-color: #bbb;
+}
+
+.record-store h3 {
+  font-size: 18px;
+}
+
+.eachstore {
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.storename {
+  width: 240px;
+}
+
+.storename h3 {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px 0;
+}
+
+address {
+  font-size: 14px;
+  padding: 10px 10px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #111;
+}
+
+.footer h2 {
+  margin: 10px 10px;
+  padding: 10px 10px;
+  text-align: start;
+  color: white;
+}
+
+.footer .sitenav {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  width: auto;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 5px;
+  color: white;
+}
